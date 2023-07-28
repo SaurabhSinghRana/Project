@@ -84,7 +84,7 @@ public class BaseTest {
 		return driver;
 	}
 
-//	@BeforeMethod(alwaysRun = true)
+	@BeforeMethod(alwaysRun = true)
 	public LandingPage lauchApplication() throws IOException {
 		Properties property = new Properties();
 		FileInputStream fis = new FileInputStream("property\\config.properties");
@@ -98,7 +98,7 @@ public class BaseTest {
 		return login;
 	}
 
-	@BeforeMethod(alwaysRun = true)
+//	@BeforeMethod(alwaysRun = true)
 	public LandingPage launchApplicationOnChrome() throws MalformedURLException {
 		driver = InitalizeChrome();
 		login = new LandingPage(driver);

@@ -8,9 +8,9 @@
     <classes>
       <class name="Organization.Ecommerce.ErrorValidation">
         <methods>
-          <include name="launchApplicationOnChrome"/>
           <include name="invalidLogin" invocation-numbers="0"/>
           <include name="closeBrowser"/>
+          <include name="lauchApplication"/>
         </methods>
       </class> <!-- Organization.Ecommerce.ErrorValidation -->
     </classes>

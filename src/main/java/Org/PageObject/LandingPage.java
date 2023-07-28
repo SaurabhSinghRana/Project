@@ -1,4 +1,4 @@
-git apackage Org.PageObject;
+package Org.PageObject;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
