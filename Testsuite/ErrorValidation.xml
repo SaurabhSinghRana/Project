@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<groups>
+		<run>
+			<include name="error"></include>
+		</run>
+	</groups>
+	<listeners>
+		<listener class-name="Organization.Ecommerce.Listeners"></listener>
+	</listeners>
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="Organization.Ecommerce.EcommerceBase" />
+			<class name="Organization.Ecommerce.ErrorValidation" />
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->

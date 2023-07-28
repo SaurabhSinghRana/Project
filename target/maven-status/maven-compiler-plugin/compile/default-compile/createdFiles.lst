@@ -1,0 +1,5 @@
+Org\PageObject\ProductCatalouge.class
+Org\Configuration\Abstract.class
+Org\PageObject\OrderAck.class
+Org\PageObject\PlaceOrder.class
+Org\PageObject\LandingPage.class
